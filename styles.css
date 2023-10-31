@@ -1,0 +1,91 @@
+:root {
+    --laranja: #FF9D2B;
+    --laranja-claro: #FBC17C;
+    --laranja-escuro: #E7830E;
+    --roxo: #201441;
+    --roxo-claro: #5636AC;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --fonte-titulo: 'Lilita One', sans-serif;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--laranja);
+    padding: 2.75rem 4rem;
+    font-family: var(--fonte-principal);
+}
+
+.banner {
+    background-color: var(--roxo);
+    display: flex;
+    padding: 3.375rem;
+    border-radius: 31px;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1 {
+    color: var(--laranja);
+    font-family: var(--fonte-titulo);
+    font-family: Lilita One;
+    font-size: 64px;
+    line-height: 73px;
+}
+
+.banner button {
+    padding: 0.875rem 1.5rem;
+    background-color: var(--roxo-claro);
+    border: none;
+    border-radius: 116px;
+    color: var(--branco);
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.morcego {
+    position: absolute;
+    top: -3rem;
+    right: 5rem;
+}
+
+.musicas ul {
+    list-style-type: none;
+}
+
+.musicas ul li {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    background-color: var(--laranja-claro);
+    padding: 1rem 2rem;
+    border-radius: 14px;
+    margin-top: 1em;
+}
+
+.musicas ul li button {
+    background-color: transparent;
+    border: none;
+}
+
+.musicas ul li div {
+    flex-grow: 2;
+}
+
+h2 {
+    font-size: 48px;
+    padding: 2.125rem 0;
+}
+
+.capa {
+    width: 100px;
+}
